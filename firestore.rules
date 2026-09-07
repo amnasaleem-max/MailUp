@@ -1,0 +1,20 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Users can read and write their own data
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      // Sub-collections (tokens, settings, badges, state)
+      match /{subcollection}/{document} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // WhatsApp reply mappings - only Cloud Functions (admin) write, but authenticated users can read their own
+    match /wa_mappings/{mappingId} {
+      allow read: if request.auth != null && resource.data.userId == request.auth.uid;
+      allow write: if false; // Cloud Functions only (admin SDK bypasses rules)
+    }
+  }
+}

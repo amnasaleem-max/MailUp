@@ -1,0 +1,60 @@
+{
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "mailup-7ff3d",
+                    "appId": "1:498688760652:android:55cd7921aa7f1d8dc04de9",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "ios": {
+                "default": {
+                    "projectId": "mailup-7ff3d",
+                    "appId": "1:728119460156:ios:da1e8551fce2b8a8e75e39",
+                    "uploadDebugSymbols": false,
+                    "fileOutput": "ios/Runner/GoogleService-Info.plist"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "mailup-7ff3d",
+                    "configurations": {
+                        "android": "1:498688760652:android:55cd7921aa7f1d8dc04de9",
+                        "ios": "1:728119460156:ios:da1e8551fce2b8a8e75e39",
+                        "macos": "1:728119460156:ios:da1e8551fce2b8a8e75e39",
+                        "web": "1:728119460156:web:4c5bb26bcc1cdb6be75e39",
+                        "windows": "1:728119460156:web:5f9fc2526ae68b4de75e39"
+                    }
+                }
+            },
+            "macos": {
+                "default": {
+                    "projectId": "mailup-7ff3d",
+                    "appId": "1:728119460156:ios:da1e8551fce2b8a8e75e39",
+                    "uploadDebugSymbols": false,
+                    "fileOutput": "macos/Runner/GoogleService-Info.plist"
+                }
+            }
+        }
+    },
+    "firestore": {
+        "indexes": "firestore.indexes.json",
+        "rules": "firestore.rules"
+    },
+    "functions": [
+        {
+            "source": "functions",
+            "codebase": "default",
+            "disallowLegacyRuntimeConfig": true,
+            "ignore": [
+                "node_modules",
+                ".git",
+                "firebase-debug.log",
+                "firebase-debug.*.log",
+                "*.local"
+            ],
+            "predeploy": []
+        }
+    ]
+}

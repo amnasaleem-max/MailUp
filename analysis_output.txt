@@ -1,0 +1,16 @@
+Analyzing mail-up...                                            
+
+  error • Classes can only extend other classes • lib/core/providers/theme_provider.dart:7:33 • extends_non_class
+warning • The method doesn't override an inherited method • lib/core/providers/theme_provider.dart:9:13 • override_on_non_overriding_member
+  error • Undefined name 'state' • lib/core/providers/theme_provider.dart:14:5 • undefined_identifier
+  error • Undefined name 'state' • lib/core/providers/theme_provider.dart:14:13 • undefined_identifier
+  error • Undefined name 'state' • lib/core/providers/theme_provider.dart:18:5 • undefined_identifier
+  error • The name 'AutoDisposeNotifierProvider' isn't a class • lib/core/providers/theme_provider.g.dart:14:5 • creation_with_non_type
+  error • Undefined class 'AutoDisposeNotifier' • lib/core/providers/theme_provider.g.dart:24:31 • undefined_class
+   info • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/setup/presentation/pages/reminder_preferences_screen.dart:67:17 • deprecated_member_use
+   info • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/setup/presentation/pages/reminder_preferences_screen.dart:68:17 • deprecated_member_use
+   info • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/setup/presentation/pages/reminder_preferences_screen.dart:74:17 • deprecated_member_use
+   info • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/setup/presentation/pages/reminder_preferences_screen.dart:75:17 • deprecated_member_use
+   info • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/setup/presentation/pages/reminder_preferences_screen.dart:81:17 • deprecated_member_use
+   info • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/setup/presentation/pages/reminder_preferences_screen.dart:82:17 • deprecated_member_use
+

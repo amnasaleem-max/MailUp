@@ -1,0 +1,13 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "wa_mappings",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "toNumber", "order": "ASCENDING" },
+        { "fieldPath": "sentAt",   "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
